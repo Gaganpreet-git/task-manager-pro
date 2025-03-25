@@ -17,6 +17,7 @@ This is an **Advanced React To-Do Application** with **Weather API Integration**
 - visit: https://task-manager-pro-gamma.vercel.app/
 - Grant location permission on browser popup.
 - Add a task and set priority.
+- click on Login/Logout button at bottom right to simulate auth.
 
 ![alt text](image.png)
 
