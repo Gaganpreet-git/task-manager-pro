@@ -1,0 +1,17 @@
+.app {
+  position: relative;
+  padding: 12px;
+  min-height: 100vh;
+
+  h1 {
+    margin-bottom: 12px;
+    color: teal;
+  }
+}
+
+.logoutBtn,
+.loginBtn {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+}
