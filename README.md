@@ -1,12 +1,46 @@
-# React + Vite
+# About This Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an **Advanced React To-Do Application** with **Weather API Integration**, built using React and CSS Modules.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Users can create a new task by entering the task name in the input field and clicking the add button or pressing **Enter**.
+- Users can set task priority as **Low, Medium, or High**.
+- Users can delete a task by clicking the **Delete** button. After confirmation, the task will be deleted, or users can **cancel** accidental deletion.
+- Users can see a **list of tasks** in the task list.
+- Users can see **weather information** based on their current location.
+- Only **logged-in users** can view the tasks.
+- **Responsive design**, user-friendly interface, and modern UI.
 
-## Expanding the ESLint configuration
+# How to use the app:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- visit: https://task-manager-pro-gamma.vercel.app/
+- Grant location permission on browser popup.
+- Add a task and set priority.
+
+![alt text](image.png)
+
+## Technologies Used
+
+- **React + Vite**
+- **Redux Toolkit**, Async Thunk
+- **CSS Modules**
+- **JavaScript (ES6+)**
+- **HTML / CSS / JSX**
+- **Local Storage** (for persistent data)
+- **OpenWeather API** for weather information
+
+# Setup steps
+
+- git clone https://github.com/Gaganpreet-git/task-manager-pro.git
+- npm install
+
+# Add Environment Variables
+
+- VITE_WEATHER_API_KEY= openweathermap.org
+- VITE_WEATHER_API_URL=https://api.openweathermap.org/data/2.5/weather
+
+# Run the Project
+
+- npm run dev
+- visit: (http://localhost:5173/)
